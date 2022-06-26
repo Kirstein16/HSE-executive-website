@@ -1,0 +1,13 @@
+div{
+    text-align: center;
+}
+div.topButtons a button{
+    width: 100px;
+    height: 45px ;
+    text-align: center;
+    left: 50%;
+    right: 50%;
+}
+h1{
+    text-align: center;
+}
