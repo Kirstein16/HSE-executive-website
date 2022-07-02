@@ -27,10 +27,9 @@ div.profileImg img{
     font-size: larger;
 }
 p#abtLew{
-    position: relative;
-    width: 300px;
-    height: auto;
     text-align: center;
+    width: 350px;
+    margin: 0 auto;
     left: 50%;
     right: 50%;
 }
