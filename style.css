@@ -1,5 +1,7 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #28511c;
+    color: whitesmoke;
 }
 div{
     text-align: center;
@@ -32,4 +34,18 @@ p#abtLew{
     margin: 0 auto;
     left: 50%;
     right: 50%;
+}
+li{
+    text-align: left;
+    margin-left: 5%;
+}
+p#title{
+    border-style: none;
+}
+p{
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 5%;
 }
