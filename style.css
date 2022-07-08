@@ -2,6 +2,7 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #28511c;
     color: whitesmoke;
+
 }
 div{
     text-align: center;
@@ -12,6 +13,11 @@ div.topButtons a button{
     text-align: center;
     left: 50%;
     right: 50%;
+    color: whitesmoke;
+    background-color: #326523;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    border-style: solid;
 }
 h1{
     text-align: center;
@@ -24,11 +30,12 @@ div.profileImg img{
     left: 50%;
     right: 50%;
 }
-#title{
+p#title{
     text-align: center;
     font-size: larger;
+    border-style: none;
 }
-p#abtLew{
+#abtLew{
     text-align: center;
     width: 350px;
     margin: 0 auto;
@@ -39,13 +46,25 @@ li{
     text-align: left;
     margin-left: 5%;
 }
-p#title{
-    border-style: none;
-}
 p{
     border-style: solid;
     border-radius: 5px;
     padding: 10px;
     text-align: left;
     margin-left: 5%;
+    background-color: #326523;
+}
+p.homeBoxL{
+    margin-top: 50px;
+    font-size: larger;
+    text-align: left;
+    width: 200px;
+    margin-left: 20%;
+}
+p.homeBoxR{
+    margin-top: 50px;
+    font-size: larger;
+    width: 200px;
+    margin-left: 55%;
+    text-align: right;
 }
